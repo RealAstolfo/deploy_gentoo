@@ -2,6 +2,7 @@
 emerge --sync
 emerge --update --deep --newuse @world
 emerge layman cpuid2cpuflags gentoo-sources
+layman -S
 layman -a guru
 layman -a steam-overlay
 
