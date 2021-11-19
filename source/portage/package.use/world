@@ -1,0 +1,3 @@
+dev-java/openjdk gentoo-vm -alsa -cups -webstart
+dev-java/openjdk-bin gentoo-vm -alsa -cups -webstart
+dev-java/openjdk-jre-bin gentoo-vm -alsa -cups -webstart

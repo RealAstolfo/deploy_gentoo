@@ -1,0 +1,5 @@
+67a68,71
+> 	{ wifi_essid, "[%s]",	"wlp4s0" },
+> 	{ disk_perc, "[%s%%]", "/" },
+> 	{ temp,	     "[C %s]",  "/sys/class/thermal/thermal_zone1/temp"},
+> 	{ kernel_release, "[%s]", NULL},

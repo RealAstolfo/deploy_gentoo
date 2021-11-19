@@ -1,0 +1,9 @@
+[submodule "sets/suckless/dwm"]
+	path = sets/suckless/dwm
+	url = https://git.suckless.org/dwm
+[submodule "sets/suckless/st"]
+	path = sets/suckless/st
+	url = https://git.suckless.org/st
+[submodule "sets/suckless/slstatus"]
+	path = sets/suckless/slstatus
+	url = https://git.suckless.org/slstatus
