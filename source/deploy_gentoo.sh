@@ -1,11 +1,12 @@
 #!/bin/bash
+# script assumes you already ran emerge --sync
 cp -r ./source/portage/* /etc/portage/
-emerge --sync
-emerge --update --deep --newuse @world
+mkdir -w /etc/gtk-3.0/
 emerge layman cpuid2cpuflags gentoo-sources
 layman -S
 layman -a guru
 layman -a steam-overlay
+emerge --update --deep --newuse @world
 
 cp config/settings.ini /etc/gtk-3.0/
 cd ./source/suckless
